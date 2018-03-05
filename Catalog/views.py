@@ -40,7 +40,7 @@ class LoanedBooksByUserListView(LoginRequiredMixin, generic.ListView):
         Generic class-based view listing books on loan to current user.
         """
         model = BookInstance
-        template_name = 'catalog/bookinstance_list_borrowed_user.html'
+        template_name = 'Catalog/bookinstance_list_borrowed_user.html'
         paginate_by = 10
 
         def get_queryset(self):
@@ -75,7 +75,7 @@ import datetime
 
 
 from .forms import RenewBookForm
-@permission_required('catalog.can_mark_returned')
+@permission_required('Catalog.can_mark_returned')
 def renew_book_librarian(request, pk):
     """
     View function for renewing a specific BookInstance by librarian
