@@ -8,8 +8,10 @@ from django.http import JsonResponse;
 def Valid_Author(request):
     authName=request.GET.get('authName',None);
     num_books = Book.objects.all().count()
+    num_visits = request.session.get('num_visits', 0);
+    request.session['num_visits'] = num_visits + 1;
     data  ={
-            'num_visits':num_books
+            'num_visits':num_visits
     }
     return JsonResponse(data)
 
