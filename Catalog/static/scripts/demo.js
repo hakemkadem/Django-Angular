@@ -50,4 +50,5 @@ console.log($location)
                         });
 
                        };
+                       $scope.PostBook();
 }]);
