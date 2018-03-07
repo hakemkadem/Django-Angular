@@ -50,6 +50,8 @@ class AuthorListView(generic.ListView):
         # Create any data and add it to the context
         context['MyBooks'] =Book.objects.all()
         return context
+
+    template_name = 'Catalog/Author_list.html'
 class AuthorDetailView(generic.DetailView):
     model = Author;
     def get_context_data(self, **kwargs):
@@ -58,6 +60,9 @@ class AuthorDetailView(generic.DetailView):
         # Create any data and add it to the context
         context['MyBooks'] = Book.objects.filter(author__last_name__contains='kanabi');
         return context
+
+    template_name = 'Catalog/Author_detail.html'
+
 class LoanedBooksByUserListView(LoginRequiredMixin, generic.ListView):
         """
         Generic class-based view listing books on loan to current user.

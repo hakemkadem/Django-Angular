@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d620391a-d056-41b9-aeb4-59c8374febd9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Catalog/static/scripts/demo.js" afterPath="$PROJECT_DIR$/Catalog/static/scripts/demo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Catalog/templates/Catalog/base_generic.html" afterPath="$PROJECT_DIR$/Catalog/templates/Catalog/base_generic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Catalog/views.py" afterPath="$PROJECT_DIR$/Catalog/views.py" />
     </list>
     <ignored path="locallibrary.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,24 +26,38 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Catalog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="288">
+              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
                 <element signature="e#345#622#0" expanded="false" />
-                <element signature="e#1714#2030#0" expanded="false" />
+                <element signature="e#654#1515#0" expanded="false" />
+                <element signature="e#742#1397#0" expanded="false" />
+                <element signature="e#1579#1591#0" expanded="false" />
+                <element signature="e#1657#1669#0" expanded="false" />
+                <element signature="e#1714#2078#0" expanded="false" />
                 <element signature="e#1780#2030#0" expanded="false" />
-                <element signature="e#2079#2438#0" expanded="false" />
-                <element signature="e#2518#2903#0" expanded="false" />
-                <element signature="e#2518#2605#1" expanded="false" />
-                <element signature="e#2776#2902#0" expanded="false" />
-                <element signature="e#2959#3009#0" expanded="false" />
-                <element signature="e#3034#3790#0" expanded="false" />
-                <element signature="e#4124#5249#0" expanded="false" />
-                <element signature="e#4124#4203#1" expanded="false" />
-                <element signature="e#4361#4871#0" expanded="false" />
-                <element signature="e#4955#5109#0" expanded="false" />
+                <element signature="e#2127#2536#0" expanded="false" />
+                <element signature="e#2193#2486#0" expanded="false" />
+                <element signature="e#2617#3002#0" expanded="false" />
+                <element signature="e#2617#2704#1" expanded="false" />
+                <element signature="e#2875#3001#0" expanded="false" />
+                <element signature="e#3058#3108#0" expanded="false" />
+                <element signature="e#3133#3889#0" expanded="false" />
+                <element signature="e#4223#5348#0" expanded="false" />
+                <element signature="e#4223#4302#1" expanded="false" />
+                <element signature="e#4460#4970#0" expanded="false" />
+                <element signature="e#5054#5208#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Author_list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Catalog/templates/Catalog/Author_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="41" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -52,8 +65,8 @@
       <file leaf-file-name="demo.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Catalog/static/scripts/demo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="232">
+              <caret line="41" column="77" selection-start-line="41" selection-start-column="77" selection-end-line="41" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -94,11 +107,9 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Catalog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="48">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -183,9 +194,9 @@
         <option value="$PROJECT_DIR$/locallibrary/settings.py" />
         <option value="$PROJECT_DIR$/locallibrary/views.py" />
         <option value="$PROJECT_DIR$/locallibrary/urls.py" />
-        <option value="$PROJECT_DIR$/Catalog/views.py" />
         <option value="$PROJECT_DIR$/Catalog/urls.py" />
         <option value="$PROJECT_DIR$/Catalog/templates/Catalog/base_generic.html" />
+        <option value="$PROJECT_DIR$/Catalog/views.py" />
         <option value="$PROJECT_DIR$/Catalog/static/scripts/demo.js" />
       </list>
     </option>
@@ -250,7 +261,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="locallibrary" />
+              <option name="myItemId" value="Catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Django-Angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Django-Angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Catalog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -430,7 +463,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19055118" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17322835" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4456693" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -481,7 +514,7 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -738,13 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Catalog/templates/Catalog/Author_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="41" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Catalog/templates/Catalog/Author_detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
@@ -829,39 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Catalog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Catalog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <element signature="e#345#622#0" expanded="false" />
-            <element signature="e#1714#2030#0" expanded="false" />
-            <element signature="e#1780#2030#0" expanded="false" />
-            <element signature="e#2079#2438#0" expanded="false" />
-            <element signature="e#2518#2903#0" expanded="false" />
-            <element signature="e#2518#2605#1" expanded="false" />
-            <element signature="e#2776#2902#0" expanded="false" />
-            <element signature="e#2959#3009#0" expanded="false" />
-            <element signature="e#3034#3790#0" expanded="false" />
-            <element signature="e#4124#5249#0" expanded="false" />
-            <element signature="e#4124#4203#1" expanded="false" />
-            <element signature="e#4361#4871#0" expanded="false" />
-            <element signature="e#4955#5109#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Catalog/templates/Catalog/base_generic.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -870,10 +863,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Catalog/static/scripts/demo.js">
+    <entry file="file://$PROJECT_DIR$/Catalog/templates/Catalog/Author_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="41" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Catalog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Catalog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <element signature="e#345#622#0" expanded="false" />
+            <element signature="e#654#1515#0" expanded="false" />
+            <element signature="e#742#1397#0" expanded="false" />
+            <element signature="e#1579#1591#0" expanded="false" />
+            <element signature="e#1657#1669#0" expanded="false" />
+            <element signature="e#1714#2078#0" expanded="false" />
+            <element signature="e#1780#2030#0" expanded="false" />
+            <element signature="e#2127#2536#0" expanded="false" />
+            <element signature="e#2193#2486#0" expanded="false" />
+            <element signature="e#2617#3002#0" expanded="false" />
+            <element signature="e#2617#2704#1" expanded="false" />
+            <element signature="e#2875#3001#0" expanded="false" />
+            <element signature="e#3058#3108#0" expanded="false" />
+            <element signature="e#3133#3889#0" expanded="false" />
+            <element signature="e#4223#5348#0" expanded="false" />
+            <element signature="e#4223#4302#1" expanded="false" />
+            <element signature="e#4460#4970#0" expanded="false" />
+            <element signature="e#5054#5208#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Catalog/static/scripts/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="41" column="77" selection-start-line="41" selection-start-column="77" selection-end-line="41" selection-end-column="77" />
           <folding />
         </state>
       </provider>
