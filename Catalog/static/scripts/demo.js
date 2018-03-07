@@ -22,7 +22,7 @@ console.log($location.$$host)
 
 
                        $scope.PostBook=function(){
-
+console.log($location)
                                    var BookObj=[
                                    {'title':'Angular-java',
                                    'summary':'connection django and angular',
@@ -39,7 +39,7 @@ console.log($location.$$host)
                                   ]
                             $http({
                             method: 'POST',
-                            url: 'http://'+$location.$$host+':'+$location.$$port+'/Catalog/validate_username/',
+                            url: $location.$$protocol+'://'+$location.$$host+'/Catalog/'+'validate_username/',
                             data: $.param({ deal: JSON.stringify(BookObj) }),
                             headers: { 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8' }
                         }).success(function (data, status, headers, config) {

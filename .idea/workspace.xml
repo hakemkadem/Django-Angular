@@ -4,11 +4,6 @@
     <list default="true" id="d620391a-d056-41b9-aeb4-59c8374febd9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Catalog/static/scripts/demo.js" afterPath="$PROJECT_DIR$/Catalog/static/scripts/demo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Catalog/templates/Catalog/base_generic.html" afterPath="$PROJECT_DIR$/Catalog/templates/Catalog/base_generic.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Catalog/urls.py" afterPath="$PROJECT_DIR$/Catalog/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Catalog/views.py" afterPath="$PROJECT_DIR$/Catalog/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/locallibrary/settings.py" afterPath="$PROJECT_DIR$/locallibrary/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/locallibrary/urls.py" afterPath="$PROJECT_DIR$/locallibrary/urls.py" />
     </list>
     <ignored path="locallibrary.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,8 +51,8 @@
       <file leaf-file-name="demo.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Catalog/static/scripts/demo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="41" column="110" selection-start-line="41" selection-start-column="110" selection-end-line="41" selection-end-column="110" />
+            <state relative-caret-position="124">
+              <caret line="41" column="76" selection-start-line="41" selection-start-column="76" selection-end-line="41" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -876,8 +871,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Catalog/static/scripts/demo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="41" column="110" selection-start-line="41" selection-start-column="110" selection-end-line="41" selection-end-column="110" />
+        <state relative-caret-position="124">
+          <caret line="41" column="76" selection-start-line="41" selection-start-column="76" selection-end-line="41" selection-end-column="76" />
           <folding />
         </state>
       </provider>
