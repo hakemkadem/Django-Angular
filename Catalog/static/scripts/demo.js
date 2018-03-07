@@ -8,7 +8,9 @@ $interpolateProvider.endSymbol(']]');
 myApp.controller("MyController", ["$scope","$location","$http", function($scope, $location, $http) {
 $scope.myName = "Hakim Adil Will Win in Django";
 $scope.GetData=function(item){
- $http.get('validate_username/',
+console.log($location.$$host)
+
+ $http.get('http://'+$location.$$host+':'+$location.$$port+'/Catalog/validate_username/',
                        { params: { 'authName': item}
                        }).success(function (data) {
                           $scope.DatedVault= data;
@@ -37,7 +39,7 @@ $scope.GetData=function(item){
                                   ]
                             $http({
                             method: 'POST',
-                            url: 'validate_username/',
+                            url: 'http://'+$location.$$host+':'+$location.$$port+'/Catalog/validate_username/',
                             data: $.param({ deal: JSON.stringify(BookObj) }),
                             headers: { 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8' }
                         }).success(function (data, status, headers, config) {

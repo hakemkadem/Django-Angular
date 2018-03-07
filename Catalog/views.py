@@ -16,6 +16,7 @@ def Valid_Author(request):
             'num_visits':num_visits
     }
     return JsonResponse(data)
+
 def GetFileCode(request):
     # FileCode = request.GET.get('authName',None);
     if request.method == 'POST':
@@ -37,9 +38,9 @@ def GetFileCode(request):
                         content_type='application/json')
 
 
-class BookListView(generic.ListView):
+class BookListView(LoginRequiredMixin,generic.ListView):
     model = Book
-class BookDetailView(generic.DetailView):
+class BookDetailView(LoginRequiredMixin,generic.DetailView):
     model = Book
 class AuthorListView(generic.ListView):
     model = Author;
