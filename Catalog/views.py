@@ -1,9 +1,11 @@
 from django.shortcuts import render
-from .models import Book,BookInstance,Author,Genre
+from .models import Book,BookInstance,Author,Genre,FileCode
 from django.views import generic
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.http import JsonResponse;
-
+from django.core import serializers;
+from django.http import HttpResponse;
+import json;
 
 def Valid_Author(request):
     authName=request.GET.get('authName',None);
@@ -14,6 +16,26 @@ def Valid_Author(request):
             'num_visits':num_visits
     }
     return JsonResponse(data)
+def GetFileCode(request):
+    # FileCode = request.GET.get('authName',None);
+    if request.method == 'POST':
+        Groups=list(json.loads(request.POST.get('deal',None)))
+        for i in range(len(Groups)):
+            bo=Book(title=Groups[i]['title'],
+                    summary=Groups[i]['summary'],
+                    isbn=Groups[i]['isbn'],
+                    author_id=Groups[i]['author_id'])
+            TestExist = Book.objects.filter(title__exact=Groups[i]['title']).count();
+            if(TestExist==0):
+                 bo.save();
+        # Groups = Genre.objects.filter(id__exact=1).update(title=FileCode);
+        Groups=Book.objects.all();
+        lists=[1,2,3,4]
+        # Groups_serialized = serializers.serialize('json', Groups)
+        data =Groups;
+    return HttpResponse(serializers.serialize("json", data),
+                        content_type='application/json')
+
 
 class BookListView(generic.ListView):
     model = Book

@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Author, Genre, Book, BookInstance
+from .models import Author, Genre, Book, BookInstance,FileCode
 
 # admin.site.register(Book)
 # admin.site.register(Author)
@@ -37,5 +37,5 @@ class BookInstanceAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Genre)
-
+admin.site.register(FileCode)
 

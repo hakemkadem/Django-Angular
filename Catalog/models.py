@@ -107,3 +107,25 @@ class BookInstance(models.Model):
             if self.due_back and date.today() > self.due_back:
                 return True
             return False
+
+class FileCode(models.Model):
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4,
+                          help_text="Unique ID for this particular book across whole library")
+    FileCode = models.CharField(max_length=200)
+    Src1=models.CharField(max_length=10)
+    Src2=models.CharField(max_length=10)
+    Src3=models.CharField(max_length=10)
+    Des1=models.CharField(max_length=10)
+    Des2=models.CharField(max_length=10)
+    Des3=models.CharField(max_length=10)
+    DepartureDate=models.DateField(null=True)
+    RetrunDate=models.DateField(null=True)
+    SpecialDigit=models.CharField(null=True, max_length=3),
+    status=models.IntegerField(null=True)
+    Discription=models.CharField(null=True,max_length=200)
+
+    def __str__(self):
+        """
+        String for representing the Model object
+        """
+        return '{0} ({1})'.format(self.Des1)
